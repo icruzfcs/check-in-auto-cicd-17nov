@@ -1,0 +1,13 @@
+http:
+  port: "8081"
+
+tls:
+  keyStore:
+    type: "pkcs12"
+    path: "check-in-papi.p12"
+    alias: "server"
+    keyPassword: "mule12345"
+    password: "mule12345"
+
+api:
+  id: "21303230"
